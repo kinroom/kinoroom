@@ -1,5 +1,6 @@
 import styles from './Packages.module.css'
 import {motion} from "framer-motion";
+import React from 'react';
 
 const Packages = () => {
     return (

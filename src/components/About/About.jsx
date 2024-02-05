@@ -1,6 +1,6 @@
 import styles from './About.module.css'
 import {motion} from "framer-motion";
-
+import React from 'react';
 const About = () => {
     const cards = [
         {

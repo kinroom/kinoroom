@@ -1,4 +1,5 @@
 import styles from './Halls.module.css'
+import React from 'react';
 import Container from "../Container/Container.jsx";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";

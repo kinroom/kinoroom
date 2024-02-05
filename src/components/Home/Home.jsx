@@ -1,7 +1,7 @@
 import styles from './Home.module.css'
 import Container from "../Container/Container.jsx";
 import {motion} from "framer-motion";
-
+import React from 'react';
 
 const Home = () => {
 

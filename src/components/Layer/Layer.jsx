@@ -1,5 +1,6 @@
 import styles from './Layer.module.css'
 import Footer from "../Footer/Footer.jsx";
+import React from 'react';
 
 const Layer = ({children}) => {
     return (

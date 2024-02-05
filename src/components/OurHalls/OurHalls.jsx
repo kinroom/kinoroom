@@ -1,7 +1,7 @@
 import styles from './OurHalls.module.css'
 import Container from "../Container/Container.jsx";
 import {motion} from "framer-motion";
-
+import React from 'react';
 const OurHalls = () => {
     const cards = [
         {
