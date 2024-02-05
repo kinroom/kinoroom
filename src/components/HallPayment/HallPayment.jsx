@@ -1,5 +1,5 @@
 import styles from './HallPayment.module.css'
-import Container from "../Container/Container.jsx";
+import React from 'react';
 import {IoCloseCircleOutline} from "react-icons/io5";
 import {useDispatch, useSelector} from "react-redux";
 import {getHall} from "../../store/slices/HallSlice.js";
@@ -99,9 +99,14 @@ const HallPayment = () => {
                         <div className={styles.form_item}>
                             <div className={styles.form__title}>Выберите город:</div>
                             <select>
-                                <option value="Брест">Брест, 1-я Брестская улица, 42</option>
-                                <option value="Гомель">Гомель, ул. Ильича 333</option>
-                                <option value="Минск">Минск, ул. Петра Мстиславца 9</option>
+                                <option value="Брест">Большой Николопесковский переулок, 13</option>
+                                <option value="Гомель">Моховая улица, 11с12</option>
+                                <option value="Минск">улица Ильинка, 3/8с1</option>
+                                <option value="Минск">Малый Ивановский переулок, 2-4с15</option>
+                                <option value="Минск">улица Большая Якиманка, 17/2с2</option>
+                                <option value="Минск">Шереметьевская улица, 1к2</option>
+                                <option value="Минск">7-я Кожуховская улица, 9</option>
+                                <option value="Минск">2-й кожевнический переулок 7а</option>
                             </select>
                         </div>
                         <div className={styles.form_item}>
@@ -145,7 +150,7 @@ const HallPayment = () => {
                             <input type="number" placeholder='Номер'/>
                         </div>
                         <div className={styles.form_item}>
-                            <a href="#!">
+                            <a href="https://t.me/kinoroommanager">
                                 <button className={styles.button}>Забронировать</button>
                             </a>
                         </div>

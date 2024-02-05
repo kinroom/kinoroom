@@ -57,16 +57,12 @@ const Halls = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{duration: 0.3, delay: i * 0.1}}
                             key={i} className={styles.card}>
-                            <Link to='/hall'>
-                                <img
-                                    src={el.img}
-                                    alt="card"/>
-                            </Link>
+                            <img
+                                src={el.img}
+                                alt="card"/>
                             <div>
                                 <h3>{el.title}</h3>
-                                <Link to='/hall'>
                                     <button>Подробней</button>
-                                </Link>
                             </div>
                         </motion.div>
                     ))}

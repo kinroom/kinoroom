@@ -1,17 +1,18 @@
-import React from 'react'; // Import React
-import { createBrowserRouter } from 'react-router-dom';
-import MainPage from './components/MainPage/MainPage.jsx';
-import HallPayment from './components/HallPayment/HallPayment.jsx';
+import {createBrowserRouter} from "react-router-dom";
+import MainPage from "./components/MainPage/MainPage.jsx";
+import HallPayment from "./components/HallPayment/HallPayment.jsx";
+import React from 'react'
+
 
 export const router = createBrowserRouter([
     {
         path: '/kinoroom',
-        element: <MainPage />,
+        element: <MainPage/>,
         children: [
             {
-                path: '/kinoroom/hall',
-                element: <HallPayment />
+                path: 'hall',
+                element: <HallPayment/>
             }
         ]
     }
-]);
+])
