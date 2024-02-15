@@ -31,14 +31,14 @@ const HallPayment = () => {
 			img: 'https://optim.tildacdn.com/tild3963-6338-4666-b030-643233323435/-/resize/500x400/-/format/webp/1.jpg',
 			title: 'КИНО-СВИДАНИЕ',
 			time: '4 часа',
-			pay: '4 000 руб',
+			pay: '3 500 руб',
 			paymentType: 'normal',
 		},
 		{
 			img: 'https://optim.tildacdn.com/tild3732-3933-4064-b965-363034623266/-/resize/500x400/-/format/webp/IMG_0269-HDR.jpg',
 			title: 'КИНО-СВИДАНИЕ',
 			time: '6 часа',
-			pay: '6 000 руб',
+			pay: '5000 руб',
 			paymentType: 'vip',
 		},
 		{
