@@ -14,9 +14,9 @@ const HallPayment = () => {
 	const [type, setType] = useState('')
 	const paymentLinks = {
 		basic: 'https://pay.web.money/468793776742/4IIQknY',
-		normal: 'https://my.qiwi.com/Alysa-YDxwWPq8h4?noCache=true',
-		vip: 'https://my.qiwi.com/Alysa-YzxT-OcJ5Z?noCache=true',
-		ultraVip: 'https://my.qiwi.com/Alysa-YzsC5_YAjx?noCache=true',
+		normal: 'https://pay.web.money/468793776742/3UD3xKG',
+		vip: 'https://pay.web.money/468793776742/5NrLhaI',
+		ultraVip: 'https://pay.web.money/468793776742/8dwrfFT',
 	}
 
 	const cards = [
