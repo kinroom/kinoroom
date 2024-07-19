@@ -119,9 +119,9 @@ const HallPayment = () => {
 
 								<option value='Москва'>ул. Тверская, 13с2</option>
 								<option value='Москва'>ул. Арбат, 29/2с1</option>
-								<option value='Москва'>ул. Пресненская наб., 8с1</option>
-								<option value='Москва'>ул. Новый Арбат, 21/8с2</option>
-								<option value='Москва'>ул. Зубовский бульвар, 1/15с1</option>
+								<option value='Москва'>1-й Хорошёвский проезд, 14к1</option>
+								<option value='Москва'>Беговая 1А</option>
+								<option value='Москва'>Люсиновская улица 64</option>
 
 							</select>
 						</div>
