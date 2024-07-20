@@ -114,7 +114,7 @@ const HallPayment = () => {
 					</div>
 					<div className={styles.form}>
 						<div className={styles.form_item}>
-							<div className={styles.form__title}>Выберите город:</div>
+							<div className={styles.form__title}>Выберите адрес:</div>
 							<select>
 
 								<option value='Москва'>ул. Тверская, 13с2</option>
