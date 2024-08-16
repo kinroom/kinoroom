@@ -13,10 +13,10 @@ const HallPayment = () => {
 	const [activeIndex, setActiveIndex] = useState(null)
 	const [type, setType] = useState('')
 	const paymentLinks = {
-		basic: 'https://wa.me/79159391426',
-		normal: 'https://wa.me/79159391426',
-		vip: 'https://wa.me/79159391426',
-		ultraVip: 'https://wa.me/79159391426',
+		basic: 'https://yoomoney.ru/quickpay/fundraise/button?billNumber=14LEJ7RVG3Q.240816&',
+		normal: 'https://yoomoney.ru/quickpay/fundraise/button?billNumber=14LEJPBFJ9T.240816&',
+		vip: 'https://yoomoney.ru/quickpay/fundraise/button?billNumber=14LEK9MMPAJ.240816&',
+		ultraVip: 'https://yoomoney.ru/quickpay/fundraise/button?billNumber=14LEKQ7NLHD.240816&',
 	}
 
 	const cards = [
@@ -44,7 +44,7 @@ const HallPayment = () => {
 		{
 			img: 'https://optim.tildacdn.com/tild6366-3834-4337-a330-303962663432/-/resize/500x400/-/format/webp/photo_2023-11-08_15-.jpg',
 			title: 'КИНО-НОЧЬ',
-			time: '9 часа',
+			time: '10 часов',
 			pay: '10 000 руб',
 			paymentType: 'ultraVip',
 		},
